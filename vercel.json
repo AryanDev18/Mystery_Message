@@ -1,7 +1,8 @@
 {
     "build":{
         "env": {
-            "NEXT_IGNORE_TRACE_FILES" : "true"
+            "NEXT_IGNORE_TRACE_FILES" : "true",
+            "NEXT_DISABLE_TRACE" : "true"
             }
         } 
 }
