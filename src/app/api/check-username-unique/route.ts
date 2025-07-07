@@ -3,6 +3,8 @@ import UserModel from '@/model/User';
 import { z } from 'zod';
 import { usernameValidation } from '@/schemas/signUpSchema';
 
+export const dynamic = 'force-dynamic'; // This ensures the route is always dynamic
+
 const UsernameQuerySchema = z.object({
   username: usernameValidation,
 });
